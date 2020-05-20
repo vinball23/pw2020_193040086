@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+.box { visibility: hidden; }
+.box > * { visibility: visible; }
+.box > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+.box:hover > * { opacity: 0.4; transform: scale(0.9); }
+.box > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
+
+html { 
+    display: flex; height: 100%;
+}
+body { 
+  background: #55b7f0;
+  padding: 10px;
+  max-width: 40em;
+  margin: auto;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box > * {
+  background: white;
+  padding: 1em;
+  flex: auto;
+  margin: 0.3em;
+  text-align: center;
+  color: #55b7f0;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+    </Style>
+</head>
+<body>
+    <div class="box">
+        <a href="praktikum/PW_P5_KAMIS07_193040086/">Tugas Praktikum 5</a>
+        <a href="praktikum/PW_P6_KAMIS07_193040086/tugas1/index.php">Tugas Praktikum 6</a>
+        <a href="praktikum/PW_P7_KAMIS07_193040086/latihan7c/index.php">Tugas Praktikum 7</a>
+        <a href="tubes/index.php">TUBES</a>
+      </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+body{
+    background-image: url(../assets/img/wall2.jpg);
+    font-family: 'Inconsolata', monospace;
+    font-weight:bold;
+    color:gray;
+    text-align:center;
+    -webkit-font-smoothing: antialiased;
+    background-size: cover;
+}
+
+.admin{
+    border: 0;
+    background-color: whitesmoke;
+    display: block;
+    margin: 10px 0px 0px 1350px;
+    text-align: center;
+    border: 2px solid  rgb(74, 187, 221);
+    padding: 14px 10px;
+    width: 150px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+
+input[type = "text"]{
+    border: 0;
+    background-color: whitesmoke;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid  rgb(74, 187, 221);
+    padding: 14px 10px;
+    width: 240px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box-wrap{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:2%;
+    flex-wrap: wrap;
+}
+
+.box{
+    padding:30px;
+    margin:2%;
+    background:white;
+    width: 100px;
+    height: 50px;
+    border:1px solid #d6d6d6;
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    border-radius:3px;
+    transition:.2s all; 
+    text-transform: uppercase;
+}
+
+.box-wrap:hover .box{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+}
+
+.box-wrap:hover .box:hover{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+} 
+
+input[type="text"]{
+        width: 280px;
+        border-color: #ecd157;
+}
+
+.admin:hover{
+    border-color: #ecd157;
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}

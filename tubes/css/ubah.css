@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image:url(../assets/img/wall1.jpg);
+    background-size: cover;
+}
+.box {
+    width: 500px;
+    position: fixed;
+    padding: 40px 60px 40px 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: whitesmoke;
+    text-align: center;
+    border-radius: 10%;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.boxesinput{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid  rgb(74, 187, 221);
+    padding: 14px 10px;
+    width: 240px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.boxes,.harga{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid rgb(74, 187, 221);
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.back{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px 40px;
+    text-align: center;
+    border: 2px solid #f84c63;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    position: relative;
+    float: left;
+    text-transform: uppercase;
+}
+
+.ubah{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px 40px;
+    text-align: center;
+    border: 2px solid rgb(2, 109, 109);
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    text-transform: uppercase;
+}
+
+
+.boxesinput:focus, .boxes:focus, .harga:focus{
+    width: 280px;
+    border-color: #ecd157;
+}
+
+.ubah:hover,.data:hover{
+    background:rgb(129, 190, 182);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.back:hover{
+    background:rgb(189, 127, 127);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
